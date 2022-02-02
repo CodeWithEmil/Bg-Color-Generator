@@ -1,0 +1,78 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Ubuntu;
+}
+
+#backgroundChange {
+    height: 100vh;
+    width: 100%;
+
+    font-family: Ubuntu;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#box {
+    background: #f6f6f6;
+    border-radius: 15px;
+
+    /*min-*/height: 124px; /*7.75rem*/
+    /*min-*/width: 260px; /*16.25rem*/
+
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#box > #editableText {
+    font-size: 25px;
+    /*filter: drop-shadow(1px 1px 20px #000)*/
+}
+
+#box button {
+    font-family: Ubuntu;
+
+    border: 1px solid #000;
+    padding: 5px;
+
+    background: transparent;
+
+    transition: all .4s;
+}
+
+#box button:hover, #box button:focus {
+    border-radius: 5px;
+}
+
+#box button:active {
+    background: #d4d4d4;
+}
+
+a {
+    position: absolute;
+    z-index: 5;
+    top: 4vh;
+    right: 3vw;
+
+    color: #fff;
+
+    filter: drop-shadow(1px 1px 10px #000);
+}
+
+@media (max-width: 300px) {
+    #box {
+        height: 10px;
+        width: 10px;
+    }
+}
