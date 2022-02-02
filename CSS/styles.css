@@ -43,12 +43,13 @@ body {
 #box button {
     font-family: Ubuntu;
 
+    background: transparent;
     border: 1px solid #000;
     padding: 5px;
 
-    background: transparent;
+    cursor: pointer;
 
-    transition: all .4s;
+    /*transition: all .4s;*/
 }
 
 #box button:hover, #box button:focus {
@@ -67,7 +68,7 @@ a {
 
     color: #fff;
 
-    filter: drop-shadow(1px 1px 10px #000);
+    /*filter: drop-shadow(1px 1px 10px #000);*/
 }
 
 @media (max-width: 300px) {
