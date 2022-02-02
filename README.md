@@ -1,5 +1,4 @@
 # Bg-Color-Generator
-A simple HTML, CSS, and JavaScript project to practice basic concepts. Code is clean and has comments indicating what does each line of code perform.
 
 In this case, I only used the 3 main Frontend Technologies, HTML, CSS, and JavaScript.
 You should consider that this project contains the following functions:
