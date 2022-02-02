@@ -8,4 +8,5 @@ You should consider that this project contains the following functions:
   <li>Text that changes with the Background</li>
   <li>Anchor Element that changes to either white or black depending on the Background's Brightness</li>
 </ul>
+
 I think it is a really nice practice project you should definitely try out!
