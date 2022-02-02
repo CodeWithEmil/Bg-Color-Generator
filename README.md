@@ -8,4 +8,6 @@ You should consider that this project contains the following functions:
   <li>Anchor Element that changes to either white or black depending on the Background's Brightness</li>
 </ul>
 
+I have this project published. If you want to check it out, you can find it as 'https://emil-colorgen.netlify.app'. 
+
 I think it is a really nice practice project you should definitely try out!
